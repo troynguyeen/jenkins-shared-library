@@ -1,1 +1,1 @@
-# jenkins-shared-library
+# deploy-shared-library
