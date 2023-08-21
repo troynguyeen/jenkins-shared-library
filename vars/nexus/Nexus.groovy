@@ -6,7 +6,7 @@ class Nexus {
     String CREDENTIAL_ID
     String ARTIFACT_VERSION
 
-    def Nexus(String URL, String PROTOCOL, String VERSION, 
+    public Nexus(String URL, String PROTOCOL, String VERSION, 
     String REPOSITORY, String CREDENTIAL_ID, String ARTIFACT_VERSION) {
         this.URL = URL;
         this.PROTOCOL = PROTOCOL;
