@@ -1,4 +1,3 @@
-def sayHellu() {
-    echo 'Hello World.'
-    println('Hello World println')
+def sayHellu(Map user [:]) {
+    echo 'My name is ${user.name} \n I am ${user.age} age !'
 }
