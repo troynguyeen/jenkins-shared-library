@@ -1,0 +1,25 @@
+{
+    "params": [{
+        "hosts": [
+            {
+                "name": "production",
+                "host": "143-42-77-69.ip.linodeusercontent.com",
+                "port": 8080
+            },
+            {
+                "name": "uat",
+                "host": "143-42-77-69.ip.linodeusercontent.com",
+                "port": 8080
+            },
+            {
+                "name": "dev",
+                "host": "143-42-77-69.ip.linodeusercontent.com",
+                "port": 8080
+            }
+        ],
+        "nexus": {
+            "url": "http://google.com",
+            "version": "nexus3"
+        }
+    }]
+}
